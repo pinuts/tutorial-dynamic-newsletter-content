@@ -1,10 +1,7 @@
 apply from: '.umstarter.gradle'
 
-// Siehe Kickstarter.md für Beispiele und Erklärungen.
-
 dependencies {
     runtime('de.pinuts.cmsbs:UM:7.34.1')
-    runtime('de.pinuts.cmsbs:CseConsole:7.32.0')
     runtime('de.pinuts.cmsbs:TestDriver2:2.0.6')
 }
 
@@ -16,7 +13,6 @@ pinuts.version = getVersionFromPluginDescriptor('the_plugin/plugin.desc.json')
 
 startUm.dependsOn << umSchemaUpdate
 run.dependsOn << umSchemaUpdate
-test.dependsOn << testDriver_umci
 
 setup.doLast {
     ln('cmsbs-conf/cse/plugins/de.pinuts.tutorial', pinuts.um.pluginsDir)
