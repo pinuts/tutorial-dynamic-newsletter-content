@@ -7,6 +7,15 @@
       <entries/>
     </channel>
   </channels>
+  <cronjobs>
+    <cronjob active="false" cronPlan="0 0 * * *" id="send-newsletter" jobType="csefunctioncall">
+      <name>send-newsletter</name>
+      <description/>
+      <attribute name="function">de.pinuts.tutorial.sendNewsletter</attribute>
+      <attribute name="file1"/>
+      <attribute name="logfile">output.log</attribute>
+    </cronjob>
+  </cronjobs>
   <notifications>
     <notification id="offerlist-nl" type="t">
       <title>offerlist-nl</title>

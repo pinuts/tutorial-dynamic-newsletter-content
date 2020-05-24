@@ -23,3 +23,5 @@ export function run() {
     const eventFile = createEventFile();
     UM.newsletterArchive.send(eventFile);
 }
+
+de.pinuts.tutorial.sendNewsletter = run;
