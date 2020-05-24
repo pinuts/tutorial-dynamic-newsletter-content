@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<um>
+  <channels>
+    <channel id="offerlist" isPublic="false" preventsEntryRemoval="false">
+      <title>offerlist</title>
+      <description/>
+      <entries/>
+    </channel>
+  </channels>
+  <notifications>
+    <notification id="offerlist-nl" type="t">
+      <title>offerlist-nl</title>
+      <mail>
+        <subject>Top Offers</subject>
+        <senderAddress>um@localhost</senderAddress>
+        <senderName>UM-Projekt</senderName>
+        <replyToAddress/>
+        <replyToName/>
+        <obeyPreferHtml>false</obeyPreferHtml>
+        <mailSendBothParts>false</mailSendBothParts>
+        <text/>
+        <plainBaseUrl/>
+        <plainSourceUrl/>
+        <plainSourceEncoding/>
+        <htmlMailText>&lt;html&gt;&#13;
+&lt;head&gt;&#13;
+ &lt;title&gt;&lt;/title&gt;&#13;
+&lt;/head&gt;&#13;
+&lt;body&gt;&#13;
+&lt;p&gt;Dear {firstname},&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;your top offers for today:&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;{withcse:renderOfferList:}&lt;/p&gt;&#13;
+&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;/body&gt;&#13;
+&lt;/html&gt;</htmlMailText>
+        <downloadUrl/>
+        <htmlSourceEncoding/>
+        <htmlDownloadUrl>http://cmsbs-vfs</htmlDownloadUrl>
+        <htmlBaseUrl/>
+        <htmlRestProxyUrl/>
+        <htmlEmbedImages>byPath</htmlEmbedImages>
+        <archiveOutgoingEmails>false</archiveOutgoingEmails>
+      </mail>
+      <sms>
+        <text/>
+        <sender/>
+      </sms>
+      <templateSettings>{"channels":[],"vchannels":[],"tags":[],"plain":{"linkTracking":true,"source":"text"},"html":{"linkTracking":false,"viewTracking":false,"source":"text","renderCallback":""},"sms":{"sourceUrl":"","source":"text"},"smartEditor":{"model":"{}","templateBody":""},"newsletterGroup":"","trackingMode":"Off"}</templateSettings>
+    </notification>
+  </notifications>
+</um>
