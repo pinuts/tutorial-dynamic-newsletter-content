@@ -3,6 +3,7 @@ apply from: '.umstarter.gradle'
 dependencies {
     runtime('de.pinuts.cmsbs:UM:7.34.1')
     runtime('de.pinuts.cmsbs:TestDriver2:2.0.6')
+    runtime('de.pinuts.cmsbs:DemoData:1.0.4')
 }
 
 pinuts.projectName = 'MyProject'
