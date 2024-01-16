@@ -1,8 +1,8 @@
 apply from: '.umstarter.gradle'
 
 dependencies {
-    runtime('de.pinuts.cmsbs:UM:7.48.0')
-    runtime('de.pinuts.cmsbs:TestDriver2:2.0.14')
+    runtime('de.pinuts.cmsbs:UM:7.53.0')
+    runtime('de.pinuts.cmsbs:TestDriver2:2.2.0')
     runtime('de.pinuts.cmsbs:DemoData:1.0.4')
 }
 
